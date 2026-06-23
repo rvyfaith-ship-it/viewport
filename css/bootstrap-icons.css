@@ -1,0 +1,4 @@
+@charset "UTF-8";
+/* 本地 Bootstrap Icons CSS 包裝器。
+   將 bootstrap-icons.min.css 放到同一資料夾後，可由此檔案統一引用。 */
+@import url("./bootstrap-icons.min.css");
