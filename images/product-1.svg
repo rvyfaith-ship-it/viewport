@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#f5f3ef"/>
+  <path d="M120 320 L220 200 L320 320 Z" fill="#5f8769"/>
+  <rect x="180" y="130" width="120" height="110" rx="18" fill="#fff"/>
+  <text x="50%" y="88%" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#5f8769">瓦斯爐具</text>
+</svg>

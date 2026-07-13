@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#eef2f0"/>
+  <path d="M140 320 L240 170 L340 320 Z" fill="#7e74b7"/>
+  <rect x="190" y="130" width="140" height="120" rx="20" fill="#fff"/>
+  <text x="50%" y="88%" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#7e74b7">輕量帳篷</text>
+</svg>

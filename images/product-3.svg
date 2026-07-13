@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#f4f1ed"/>
+  <circle cx="300" cy="190" r="95" fill="#91866a" opacity=".18"/>
+  <rect x="220" y="160" width="160" height="110" rx="18" fill="#fff"/>
+  <text x="50%" y="86%" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#91866a">戶外餐具</text>
+</svg>

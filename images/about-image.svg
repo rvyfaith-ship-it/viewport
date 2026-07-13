@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <rect width="900" height="600" fill="#e6f0ea"/>
+  <path d="M100 450 C220 360 320 330 460 380 C600 430 700 350 820 420 L820 520 L100 520 Z" fill="#5f8769"/>
+  <rect x="260" y="200" width="140" height="120" rx="24" fill="#fff"/>
+  <rect x="460" y="240" width="180" height="120" rx="24" fill="#fff"/>
+  <circle cx="420" cy="200" r="48" fill="#91866a"/>
+  <text x="50%" y="85%" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" fill="#4e5852">露營風景</text>
+</svg>

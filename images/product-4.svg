@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#f2f0ec"/>
+  <path d="M130 320 C210 240 290 220 360 310 S580 320 590 260" fill="#5f8769" opacity=".18"/>
+  <rect x="190" y="150" width="230" height="120" rx="24" fill="#fff"/>
+  <text x="50%" y="88%" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#5f8769">收納裝備</text>
+</svg>
