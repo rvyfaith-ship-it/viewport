@@ -96,3 +96,16 @@ body {
   .navbar-nav { gap: .25rem; padding: 1rem 0; text-align: center; }
   .about-section { min-height: auto; }
 }
+
+a.btnstyle {
+  color: #191970;
+  background-color: #eee8aa;
+  border: 1px solid #4b0082;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 3em;
+}
+a.btnstyle:hover {
+  background-color: #696969;
+}
