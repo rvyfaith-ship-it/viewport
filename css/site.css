@@ -39,7 +39,7 @@ main > * {
 .navbar-nav { gap: clamp(1rem, 5vw, 4.5rem); }
 .nav-link { color: #68726b; font-size: 1.05rem; font-weight: 700; }
 .nav-link:hover, .nav-link.active { color: var(--brand-green); }
-..hero-carousel { max-width: 1100px; margin-inline: auto; }
+.hero-carousel { max-width: 1100px; margin-inline: auto; }
 .carousel-img { width: 100%; height: clamp(260px, 38vw, 430px); object-fit: cover; }
 .hero-slide { position: relative; }
 .hero-welcome {
