@@ -55,9 +55,7 @@ main > * {
 }
 .about-section { min-height: 520px; }
 .about-section .container {
-  background-color: rgba(246, 246, 246, 0.9);
   padding: 2rem 1.5rem;
-  border-radius: 1.5rem;
 }
 .about-img {
   width: 100%;
@@ -69,9 +67,7 @@ main > * {
   max-width: 520px;
   line-height: 2;
   font-size: 1.05rem;
-  background-color: rgba(230, 230, 230, 0.95);
   padding: 1.5rem;
-  border-radius: 1rem;
 }
 .product-section { padding-top: clamp(2rem, 5vw, 4rem); padding-bottom: clamp(3rem, 7vw, 5.5rem); }
 .product-card {
