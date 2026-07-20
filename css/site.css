@@ -39,8 +39,23 @@ main > * {
 .navbar-nav { gap: clamp(1rem, 5vw, 4.5rem); }
 .nav-link { color: #68726b; font-size: 1.05rem; font-weight: 700; }
 .nav-link:hover, .nav-link.active { color: var(--brand-green); }
-.hero-carousel { max-width: 1100px; margin-inline: auto; }
+..hero-carousel { max-width: 1100px; margin-inline: auto; }
 .carousel-img { width: 100%; height: clamp(260px, 38vw, 430px); object-fit: cover; }
+.hero-slide { position: relative; }
+.hero-welcome {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-family: "Microsoft JhengHei", "黑體", "Noto Sans TC", Arial, sans-serif;
+  font-size: 150px;
+  font-weight: 900;
+  white-space: nowrap;
+  text-align: center;
+  text-shadow: 0 2px 12px rgba(255,255,255,0.9);
+  line-height: 1;
+}
 .section-block { padding: clamp(2.25rem, 6vw, 5rem) 0; }
 .section-title {
   width: min(100%, 370px);
@@ -120,6 +135,66 @@ main > * {
   font-size: 2rem;
   text-decoration: none;
 }
+
+/* Circular CTA button in footer */
+.cta-wrap { margin-top: .5rem; }
+.circle-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--brand-green);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 6px 16px rgba(0,0,0,.25);
+  font-size: 1.6rem;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.circle-cta:hover, .circle-cta:focus {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(0,0,0,.3);
+  color: #fff;
+}
+.circle-cta i { margin-left: 2px; }
+
+/* YouTube image inside CTA - grayscale */
+.circle-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--brand-green);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 6px 16px rgba(0,0,0,.25);
+  font-size: 1.6rem;
+  transition: transform .15s ease, box-shadow .15s ease;
+  position: relative;
+  overflow: hidden;
+}
+.circle-cta::before {
+  /* centered icon as pseudo-element so we can filter it without affecting background */
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../images/youtube01.png") no-repeat center/contain;
+  filter: grayscale(100%);
+  pointer-events: none;
+}
+.circle-cta:hover, .circle-cta:focus {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(0,0,0,.3);
+  color: #fff;
+}
+.circle-cta i { margin-left: 2px; }
 .company-info { margin-top: 2rem; color: #fff; font-size: 1rem; line-height: 2; }
 .company-info i { width: 1.75rem; color: #000; font-size: 1.2rem; }
 .copyright { margin-top: 2rem; color: rgba(255, 255, 255, .86); font-size: .9rem; }
