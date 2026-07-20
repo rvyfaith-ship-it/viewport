@@ -14,6 +14,25 @@ body {
   background-size: cover;
 }
 
+main {
+  position: relative;
+  z-index: 0;
+}
+
+main::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(246, 246, 246, 0.7);
+  pointer-events: none;
+  z-index: 0;
+}
+
+main > * {
+  position: relative;
+  z-index: 1;
+}
+
 .site-header { border-bottom: 1px solid #c9c9c9; background: #fff; }
 .navbar { min-height: 86px; }
 .navbar-brand img { width: 72px; height: 72px; object-fit: contain; }
@@ -35,8 +54,25 @@ body {
   letter-spacing: 0;
 }
 .about-section { min-height: 520px; }
-.about-img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
-.about-copy { max-width: 520px; line-height: 2; font-size: 1.05rem; }
+.about-section .container {
+  background-color: rgba(246, 246, 246, 0.9);
+  padding: 2rem 1.5rem;
+  border-radius: 1.5rem;
+}
+.about-img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.about-copy {
+  max-width: 520px;
+  line-height: 2;
+  font-size: 1.05rem;
+  background-color: rgba(230, 230, 230, 0.95);
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
 .product-section { padding-top: clamp(2rem, 5vw, 4rem); padding-bottom: clamp(3rem, 7vw, 5.5rem); }
 .product-card {
   width: min(100%, 270px);
