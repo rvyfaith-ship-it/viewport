@@ -10,7 +10,8 @@ body {
   margin: 0;
   color: var(--ink);
   font-family: "Noto Sans TC", "Microsoft JhengHei", Arial, sans-serif;
-  background: #fff;
+  background: #fff url("../images/背景.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 .site-header { border-bottom: 1px solid #c9c9c9; background: #fff; }
