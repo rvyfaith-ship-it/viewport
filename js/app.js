@@ -45,6 +45,8 @@ document.addEventListener('DOMContentLoaded', function () {
       } else {
         console.warn('gtag is not defined');
       }
+
+      window.location.href = 'goal.html';
     }, false);
   });
 });
